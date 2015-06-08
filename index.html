@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>Natural Distribution</title>
+		<style>
+		body{margin:0;}
+		</style>
+	</head>
+	<body onload="Page_OnLoad()" onresize="Page_OnResize()">
+		<script src="js/GraphCurve.js"></script>
+		<script src="js/input.js"></script>
+		<script src="js/app.js"></script>
+		Power: <input type="number" name="power" value="3" id="power"><br>
+		Precision: <input type="number" name="precision" value="1000"><br>
+		Population: <input type="number" name="population" value="10000"><br>
+		<input value="Calculate" onclick="calculate()" type="button">
+	</body>
+</html>
